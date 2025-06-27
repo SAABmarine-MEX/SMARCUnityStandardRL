@@ -3,6 +3,18 @@
 Welcome to the Standard (Built-in Engine) version of SMARC Unity.
 This project has all of the dependencies configured and installed in order to showcase the [SMARC Unity Assets package](https://github.com/martkartasev/SMARCUnityAssets) with minimal effort.
 
+## SAABmarine-MEX Fork
+### *BlueROV2 with residual dynamics modelling and DRL*
+
+This fork contains the work from the [SAABmarine-MEX](https://github.com/SAABmarine-MEX) project. It has created a BlueROV2 simulation with residual dynamic modelling and DRL capabilities.
+
+The work have been structured as follows (the .meta files are not included for easier visual interperation):
+
+```
+fdafdsa
+```
+
+
 ## New to Unity?
 
 ------
