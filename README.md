@@ -8,17 +8,17 @@ This project has all of the dependencies configured and installed in order to sh
 
 This fork contains the work from the [SAABmarine-MEX](https://github.com/SAABmarine-MEX) project. It has created a BlueROV2 simulation with residual dynamic modelling and DRL capabilities.
 
-The scenes for this work have been structured as follows (the .meta files are not included for easier visual interperation):
+The scenes for this work have been structured as follows bellow (the .meta files are not included for easier visual interperation). The corresponding assets repo can be found [here](https://github.com/SAABmarine-MEX/SMARCUnityAssets).
 
 ```
 SMARCUnityStandardRL/Assets/Scenes/Dev/BlueROV2/
 ├── BrovAsko.unity (From old project, the hk mechatronics project)
-├── BrovEmpty.unity (BlueROV2 in empty environment)
-├── BrovRLTankEval.unity
-├── BrovRLTankTrain.unity
-├── BrovTank.unity
+├── BrovEmpty.unity (General BlueROV2 in empty environment)
+├── BrovRLTankEval.unity (RL evaluation)
+├── BrovRLTankTrain.unity (RL training)
+├── BrovTank.unity (General BlueROV2 in the water tank)
 
-├── Models/
+├── Models/ (RL models)
 │   ├── Brov-1190164.onnx
 │   ├── Brov-1198264.onnx
 │   ├── Brov-1328315.onnx
@@ -33,9 +33,9 @@ SMARCUnityStandardRL/Assets/Scenes/Dev/BlueROV2/
 │   ├── Brov.onnx
 │   └── Brov-tether1.onnx
 
-└── ResidualDynamic/
-    ├── PriorBrovEmpty.unity
-    └── RealBrovEmpty.unity
+└── ResidualDynamic/ 
+    ├── PriorBrovEmpty.unity (Prior is the default sim)
+    └── RealBrovEmpty.unity ("Real" is made different to the default sim to test residual training without real data)
 ```
 
 
