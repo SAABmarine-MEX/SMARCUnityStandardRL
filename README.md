@@ -19,18 +19,7 @@ SMARCUnityStandardRL/Assets/Scenes/Dev/BlueROV2/
 ├── BrovTank.unity (General BlueROV2 in the water tank)
 
 ├── Models/ (RL models)
-│   ├── Brov-1190164.onnx
-│   ├── Brov-1198264.onnx
-│   ├── Brov-1328315.onnx
-│   ├── Brov-1499754.onnx
-│   ├── Brov-2230496.onnx
-│   ├── Brov-2354632.onnx
-│   ├── Brov-463136.onnx
-│   ├── Brov-525754.onnx
-│   ├── Brov-669668.onnx
 │   ├── Brov-6doftranslational.onnx
-│   ├── Brov-999623.onnx
-│   ├── Brov.onnx
 │   └── Brov-tether1.onnx
 
 └── ResidualDynamic/ 
