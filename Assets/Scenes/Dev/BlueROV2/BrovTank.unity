@@ -4764,7 +4764,7 @@ MonoBehaviour:
   useResModel: 0
   useArdusub: 1
   isReal: 0
-  useRos: 0
+  useRos: 1
   useTetherDynamics: 1
   useTetherVisuals: 1
   dynamics: {fileID: 1761361084}

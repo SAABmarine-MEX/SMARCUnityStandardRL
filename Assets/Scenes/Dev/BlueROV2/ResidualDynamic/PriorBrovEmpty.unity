@@ -3877,7 +3877,7 @@ Transform:
   m_GameObject: {fileID: 1224552411}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -10, z: 0}
+  m_LocalPosition: {x: 0, y: -3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4241,7 +4241,7 @@ Transform:
   m_GameObject: {fileID: 1505449391}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -8.48, z: -6.64}
+  m_LocalPosition: {x: 0, y: -2.7, z: -6.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4303,18 +4303,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a227cfea745486c9db590174b702620, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dynamics: {fileID: 954858592}
-  sitl: {fileID: 954858591}
-  agent: {fileID: 6965324}
-  tether: {fileID: 0}
-  resPrepper: {fileID: 954858585}
-  client: {fileID: 954858586}
-  useResModel: 0
+  useResModel: 1
   useArdusub: 1
   isReal: 0
-  rosActuation: {fileID: 0}
   useRos: 0
-  useTether: 1
+  useTetherDynamics: 1
+  useTetherVisuals: 1
+  dynamics: {fileID: 954858592}
+  sitl: {fileID: 954858591}
+  tether: {fileID: 0}
+  agent: {fileID: 6965324}
+  resPrepper: {fileID: 954858585}
+  client: {fileID: 954858586}
+  rosActuation: {fileID: 0}
 --- !u!114 &2020595890
 MonoBehaviour:
   m_ObjectHideFlags: 0
